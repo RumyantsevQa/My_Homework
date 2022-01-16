@@ -1,0 +1,29 @@
+What we're testing: Мобильное приложение OZON
+
+Reporter (Author): Румянцев Илья
+
+Id: 1
+
+Environment: iPhone 11 iOS 15.1, версия приложения 14.0 (552)
+
+Severity: Critical
+
+Priority: High
+
+Summary: Приложение вылетает при выборе бренда
+
+Preconditions: Открыть мобильное приложение OZON
+
+Steps to reproduce: 
+1. В поиске набрать apple type c
+2. Выбрать «apple type c»
+3. Фильтр с сортировкой оставить по умолчанию «популярное»
+4. Нажать кнопку «бренды»
+5. Открыть все бренды и выбрать «apple»
+6. Нажать кнопку «применить»
+
+Actual result: Приложение вылетает
+
+Expected result: Поиск выводит результат
+
+Attachments: https://youtube.com/shorts/7rvZuXclUKk?feature=share

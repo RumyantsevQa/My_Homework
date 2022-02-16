@@ -116,6 +116,20 @@ ORDER by created_on ASC;
 select id, name, created_on from students
 ORDER by created_on DESC;
 
+-- Query to get a user with email address from DB (account_user table) with all
+-- orders that user has (Join order_order table where order.type = �MULTI�)
 
+select order_order.type, account_user.email 
+from order_order 
+join account_user on order_order.id = account_user.id
+where type = 'MULTI'
+
+
+
+-- Query all published bakery product_types (product_type table)
+
+select id, bakery_id from product_type
+where bakery_id =1 or bakery_id >1
+ORDER by id asc
 
 
